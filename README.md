@@ -15,6 +15,10 @@ GitHub Peek is a lightweight web application that provides a clean interface for
 - 📱 **Responsive Design**: Works seamlessly across different screen sizes
 - 🔄 **Real-time Updates**: Automatic data refetching and caching
 
+## 🌐 Demo
+
+Check out the live demo: [https://finmavis.github.io/github-peek/](https://finmavis.github.io/github-peek/)
+
 ## 🚀 Quick Start
 
 ### Prerequisites
