@@ -35,7 +35,7 @@ function UserDetail({ login }: UserDetailProps) {
 
   return (
     <CollapsibleRoot open={isOpen} onOpenChange={handleOpenChange}>
-      <CollapsibleTrigger asChild>
+      <CollapsibleTrigger className={styles.button} aria-label={`Toggle repositories for ${login}`} >
         <Card className={styles.trigger}>
           <Flex align='center' gap='2' justify='between'>
             <Text as='p'>{login}</Text>
