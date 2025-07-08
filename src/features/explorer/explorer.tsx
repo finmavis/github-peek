@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { TextField, Button, Text, Skeleton } from '@radix-ui/themes';
 import { useNavigate, useSearchParams } from 'react-router';
 import { useQuery } from '@tanstack/react-query';
@@ -16,6 +17,7 @@ function Explorer() {
     enabled: !!searchTerm,
   });
   const navigate = useNavigate();
+  const [searchValue, setSearchValue] = useState(searchTerm ?? '');
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -32,10 +34,12 @@ function Explorer() {
         <TextField.Root
           placeholder='Enter username'
           defaultValue={searchTerm ?? ''}
+          value={searchValue}
+          onChange={(e) => setSearchValue(e.target.value)}
           name='q'
           required
         />
-        <Button type='submit' disabled={searchUsersQuery.isLoading}>
+        <Button type='submit' disabled={searchUsersQuery.isLoading || !searchValue}>
           {searchUsersQuery.isLoading ? 'Searching...' : 'Search'}
         </Button>
       </form>
