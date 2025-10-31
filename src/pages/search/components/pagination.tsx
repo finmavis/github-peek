@@ -31,7 +31,7 @@ function Pagination({
         variant='outline'
         onClick={onPrevious}
         disabled={!hasPrevious || isLoading}
-        size='2'
+        size='3'
       >
         <CaretLeftIcon size={16} />
         Prev
@@ -43,7 +43,7 @@ function Pagination({
         variant='outline'
         onClick={onNext}
         disabled={!hasNext || isLoading}
-        size='2'
+        size='3'
       >
         Next
         <CaretRightIcon size={16} />
