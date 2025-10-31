@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  width: 100%;
+}
+
+.header {
+  margin-bottom: var(--space-2);
+}
+
+.errorBanner {
+  padding: var(--space-4);
+  background-color: var(--gray-3);
+  border: 1px solid var(--gray-5);
+  border-radius: var(--radius-2);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.errorActions {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}

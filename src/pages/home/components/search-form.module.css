@@ -1,0 +1,14 @@
+.form {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-4);
+  width: 100%;
+}

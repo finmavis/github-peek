@@ -1,0 +1,25 @@
+@import './styles/theme.css';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+}

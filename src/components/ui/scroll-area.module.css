@@ -1,0 +1,24 @@
+.scrollArea {
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--gray-4) var(--gray-2);
+}
+
+.scrollArea::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scrollArea::-webkit-scrollbar-track {
+  background: var(--gray-2);
+  border-radius: var(--radius-2);
+}
+
+.scrollArea::-webkit-scrollbar-thumb {
+  background: var(--gray-4);
+  border-radius: var(--radius-2);
+}
+
+.scrollArea::-webkit-scrollbar-thumb:hover {
+  background: var(--gray-5);
+}

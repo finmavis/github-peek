@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filterButton {
+  cursor: pointer;
+}
+
+.advancedFilterButton {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+}
+
+.popoverContent {
+  max-width: 800px;
+  max-height: 80vh;
+}

@@ -1,0 +1,95 @@
+.text {
+  margin: 0;
+  font-family: var(--font-family);
+  line-height: var(--line-height-normal);
+}
+
+.size-1 {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-tight);
+}
+
+.size-2 {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-tight);
+}
+
+.size-3 {
+  font-size: var(--font-size-base);
+}
+
+.size-4 {
+  font-size: var(--font-size-lg);
+}
+
+.size-5 {
+  font-size: var(--font-size-xl);
+}
+
+.size-6 {
+  font-size: var(--font-size-2xl);
+}
+
+.size-7 {
+  font-size: var(--font-size-3xl);
+}
+
+.size-8 {
+  font-size: var(--font-size-4xl);
+}
+
+.size-9 {
+  font-size: var(--font-size-5xl);
+}
+
+.weight-normal {
+  font-weight: var(--font-weight-normal);
+}
+
+.weight-medium {
+  font-weight: var(--font-weight-medium);
+}
+
+.weight-semibold {
+  font-weight: var(--font-weight-semibold);
+}
+
+.weight-bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.color-default {
+  color: var(--color-text);
+}
+
+.color-secondary {
+  color: var(--color-text-secondary);
+}
+
+.color-tertiary {
+  color: var(--color-text-tertiary);
+}
+
+.color-accent {
+  color: var(--color-accent);
+}
+
+.color-success {
+  color: var(--color-success);
+}
+
+.color-error {
+  color: var(--color-error);
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}

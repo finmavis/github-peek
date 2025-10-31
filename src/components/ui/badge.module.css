@@ -1,0 +1,138 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  border-radius: var(--radius-full);
+  font-weight: var(--font-weight-medium);
+  white-space: nowrap;
+}
+
+.size-1 {
+  padding: 2px var(--space-2);
+  font-size: var(--font-size-xs);
+  line-height: 1.2;
+}
+
+.size-2 {
+  padding: var(--space-1) var(--space-2);
+  font-size: var(--font-size-sm);
+  line-height: 1.2;
+}
+
+.variant-solid {
+  color: white;
+}
+
+.variant-soft {
+  opacity: 0.9;
+}
+
+.variant-outline {
+  background-color: transparent;
+  border: 1px solid;
+}
+
+.color-blue {
+  --badge-bg: #3b82f6;
+  --badge-text: #ffffff;
+  --badge-border: #2563eb;
+}
+
+.color-blue.variant-solid {
+  background-color: var(--badge-bg);
+  color: var(--badge-text);
+}
+
+.color-blue.variant-soft {
+  background-color: rgba(59, 130, 246, 0.1);
+  color: var(--badge-bg);
+}
+
+.color-blue.variant-outline {
+  border-color: var(--badge-bg);
+  color: var(--badge-bg);
+}
+
+.color-green {
+  --badge-bg: #10b981;
+  --badge-text: #ffffff;
+  --badge-border: #059669;
+}
+
+.color-green.variant-solid {
+  background-color: var(--badge-bg);
+  color: var(--badge-text);
+}
+
+.color-green.variant-soft {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--badge-bg);
+}
+
+.color-green.variant-outline {
+  border-color: var(--badge-bg);
+  color: var(--badge-bg);
+}
+
+.color-red {
+  --badge-bg: #ef4444;
+  --badge-text: #ffffff;
+  --badge-border: #dc2626;
+}
+
+.color-red.variant-solid {
+  background-color: var(--badge-bg);
+  color: var(--badge-text);
+}
+
+.color-red.variant-soft {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: var(--badge-bg);
+}
+
+.color-red.variant-outline {
+  border-color: var(--badge-bg);
+  color: var(--badge-bg);
+}
+
+.color-gray {
+  --badge-bg: var(--gray-6);
+  --badge-text: var(--gray-12);
+  --badge-border: var(--gray-7);
+}
+
+.color-gray.variant-solid {
+  background-color: var(--badge-bg);
+  color: var(--badge-text);
+}
+
+.color-gray.variant-soft {
+  background-color: var(--gray-3);
+  color: var(--gray-9);
+}
+
+.color-gray.variant-outline {
+  border-color: var(--badge-bg);
+  color: var(--badge-bg);
+}
+
+.color-yellow {
+  --badge-bg: #f59e0b;
+  --badge-text: #ffffff;
+  --badge-border: #d97706;
+}
+
+.color-yellow.variant-solid {
+  background-color: var(--badge-bg);
+  color: var(--badge-text);
+}
+
+.color-yellow.variant-soft {
+  background-color: rgba(245, 158, 11, 0.1);
+  color: var(--badge-bg);
+}
+
+.color-yellow.variant-outline {
+  border-color: var(--badge-bg);
+  color: var(--badge-bg);
+}

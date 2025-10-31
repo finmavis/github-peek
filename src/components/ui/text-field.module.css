@@ -1,0 +1,156 @@
+.wrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper.hasStartDecorator {
+  padding-left: 0;
+}
+
+.wrapper.hasEndDecorator {
+  padding-right: 0;
+}
+
+.startDecorator {
+  position: absolute;
+  left: var(--space-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-secondary);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.endDecorator {
+  position: absolute;
+  right: var(--space-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-secondary);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-3);
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  transition: all 0.2s;
+  outline: none;
+}
+
+.input::placeholder {
+  color: var(--color-text-tertiary);
+}
+
+.input:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: var(--gray-2);
+}
+
+/* Sizes */
+.size-1 {
+  padding: var(--space-1) var(--space-2);
+  font-size: var(--font-size-xs);
+  min-height: 24px;
+}
+
+.size-1.inputWithStartDecorator {
+  padding-left: calc(var(--space-1) + var(--space-2) + 16px);
+}
+
+.size-1.inputWithEndDecorator {
+  padding-right: calc(var(--space-1) + var(--space-2) + 16px);
+}
+
+.wrapperSize-1 .startDecorator {
+  left: var(--space-2);
+}
+
+.wrapperSize-1 .endDecorator {
+  right: var(--space-2);
+}
+
+.size-2 {
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--font-size-sm);
+  min-height: 32px;
+}
+
+.size-2.inputWithStartDecorator {
+  padding-left: calc(var(--space-2) + var(--space-3) + 18px);
+}
+
+.size-2.inputWithEndDecorator {
+  padding-right: calc(var(--space-2) + var(--space-3) + 18px);
+}
+
+.wrapperSize-2 .startDecorator {
+  left: var(--space-3);
+}
+
+.wrapperSize-2 .endDecorator {
+  right: var(--space-3);
+}
+
+.size-3 {
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--font-size-base);
+  min-height: 40px;
+}
+
+.size-3.inputWithStartDecorator {
+  padding-left: calc(var(--space-2) + var(--space-4) + 20px);
+}
+
+.size-3.inputWithEndDecorator {
+  padding-right: calc(var(--space-2) + var(--space-4) + 20px);
+}
+
+.wrapperSize-3 .startDecorator {
+  left: var(--space-4);
+}
+
+.wrapperSize-3 .endDecorator {
+  right: var(--space-4);
+}
+
+.size-4 {
+  padding: var(--space-3) var(--space-5);
+  font-size: var(--font-size-lg);
+  min-height: 48px;
+}
+
+.size-4.inputWithStartDecorator {
+  padding-left: calc(var(--space-3) + var(--space-5) + 24px);
+}
+
+.size-4.inputWithEndDecorator {
+  padding-right: calc(var(--space-3) + var(--space-5) + 24px);
+}
+
+.wrapperSize-4 .startDecorator {
+  left: var(--space-5);
+}
+
+.wrapperSize-4 .endDecorator {
+  right: var(--space-5);
+}
+
+.variant-soft {
+  background-color: var(--gray-2);
+  border-color: var(--gray-3);
+}
