@@ -2,6 +2,8 @@
 
 A modern React application that allows you to search and explore GitHub repositories with advanced filtering capabilities. Built with TypeScript, Vite, and custom UI components based on Radix UI.
 
+**Live Website**: [https://finmavis.github.io/github-peek/](https://finmavis.github.io/github-peek/)
+
 ## Introduction
 
 GitHub Peek is a lightweight web application that provides a clean interface for searching GitHub repositories. The application leverages the GitHub API to fetch repository data and presents it in an intuitive, filterable interface with pagination support.
